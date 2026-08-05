@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical center */
+    align-items: center;     /* Horizontal center */
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
